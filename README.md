@@ -21,4 +21,4 @@ Demo
 		System.out.println(MD5OrSSH1Encrypt.md5AndSha1("abcdef"));
 		// 3915da4d2d16dd5a69b6204cacb8a2a1d9e79f34
 		// 3915da4d2d16dd5a69b6204cacb8a2a1d9e79f34
-		```
+```
