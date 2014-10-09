@@ -12,9 +12,9 @@ import org.apache.log4j.Logger;
  * Author XieXianbin<a.b@hotmail.com> 
  * Source Repositories Address: <https://github.com/qikemi/open-wechat-sdk>
  */
-public class MD5OrSSH1Encrypt {
+public class MD5OrSHA1Encrypt {
 	
-	private static Logger logger = Logger.getLogger(MD5OrSSH1Encrypt.class);
+	private static Logger logger = Logger.getLogger(MD5OrSHA1Encrypt.class);
 
 	/**
 	 * 对str采用md5算法加密
