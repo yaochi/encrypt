@@ -2,6 +2,7 @@ package com.qikemi.packages.encrypt.test.encrypt;
 
 import org.junit.Test;
 
+import com.qikemi.packages.encrypt.base64encrypt.Base64Encrpt;
 import com.qikemi.packages.encrypt.md5.MD5OrSSH1Encrypt;
 
 /**
@@ -30,5 +31,13 @@ public class T {
 		System.out.println(MD5OrSSH1Encrypt.md5AndSha1("abcdef"));
 		// 3915da4d2d16dd5a69b6204cacb8a2a1d9e79f34
 		// 3915da4d2d16dd5a69b6204cacb8a2a1d9e79f34
+	}
+	
+	@Test
+	public void t2(){
+		Base64Encrpt base64Encrpt = new Base64Encrpt();
+		System.out.println(base64Encrpt.encrptString("xiexianbin"));
+		
+		System.out.println(base64Encrpt.decryptString("6OVo9q6Vw/FqZTfCboNCXw=="));
 	}
 }
